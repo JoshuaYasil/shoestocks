@@ -1,7 +1,7 @@
 <div class="side-bar">
     <div class="logo-details" title="Forecast">
         <i class='bx bx-meteor'></i>
-        <span class="logo-name">forecast</span>
+        <span class="logo-name">shoestocks</span>
     </div>
     <ul class="nav-links">
         <li>

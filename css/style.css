@@ -31,7 +31,7 @@ body{
 }
 
 .button{
-    background-color: #107869;
+    background-color: #0519c5;
     color: white;
     border: none;
 }
@@ -54,7 +54,7 @@ body{
     align-items: center;
     justify-items: center;
     overflow: hidden;
-    background-color: #107869;
+    background-color: #192dd8;
 }
 
 .login-form .divider{
@@ -84,13 +84,13 @@ body{
 .login-form .logo-details i{
     font-size: 40px;
     font-weight: 800;
-    color: #107869;
+    color: #1e4d94;
     text-align: center;
     padding-right: 5px;
 }
 
 .login-form .logo-details .logo-name{
-    color: #107869;
+    color: #1e4d94;
     font-size: 36px;
     font-weight: 500;
 }
