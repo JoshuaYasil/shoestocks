@@ -33,7 +33,7 @@
     <div class="login-container">
         <form class="login-form" action="login.php" method="post">
             <div class="logo-details">
-                <i class='bx bx-meteor'></i>
+                <i class='bx bxl-stripe'></i>
                 <span class="logo-name">shoestocks</span>
             </div>
             <hr class="divider">

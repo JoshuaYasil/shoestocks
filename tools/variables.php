@@ -6,7 +6,12 @@
     $screening = "";
     $programs = "";
     $students = "";
-    $faculty = "";
+    $suppliers = "";
     $settings = "";
+
+    $products = "";
+    $orders = "";
+    $brands = "";
+    $category = "";
 
 ?>

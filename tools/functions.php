@@ -41,34 +41,34 @@ function validate_email($POST){
     return true;
 }
 
-function validate_rank($POST){
-    if(!isset($POST['rank'])){
+function validate_position($POST){
+    if(!isset($POST['position'])){
         return false;
-    }else if(strcmp($POST['rank'], 'None') == 0){
-        return false;
-    }
-    return true;
-}
-
-function validate_department($POST){
-    if(!isset($POST['department'])){
-        return false;
-    }else if(strcmp($POST['department'], 'None') == 0){
+    }else if(strcmp($POST['position'], 'None') == 0){
         return false;
     }
     return true;
 }
 
-function validate_role($POST){
-    if(!isset($POST['role'])){
+function validate_company_name($POST){
+    if(!isset($POST['company_name'])){
+        return false;
+    }else if(strcmp($POST['company_name'], 'None') == 0){
         return false;
     }
     return true;
 }
 
-function validate_add_faculty($POST){
+function validate_company_address($POST){
+    if(!isset($POST['company_address'])){
+        return false;
+    }
+    return true;
+}
+
+function validate_add_supplier($POST){
     if(!validate_first_name($POST) || !validate_last_name($POST) || !validate_email($POST) ||
-     !validate_rank($POST) || !validate_department($POST) || !validate_role($POST)){
+     !validate_position($POST) || !validate_company_name($POST) || !validate_company_address($POST)){
         return false;
      }
     return true;

@@ -1,1 +1,3 @@
 bx bx-meteor -- logo
+
+?id=<?php echo $value['id'] ?>">

@@ -1,7 +1,7 @@
 <div class="side-bar">
     <div class="logo-details" title="Forecast">
-        <i class='bx bx-meteor'></i>
-        <span class="logo-name">shoestocks</span>
+        <i class='bx bxl-stripe'></i>
+        <span class="logo-name">Shoe Stock System</span>
     </div>
     <ul class="nav-links">
         <li>
@@ -11,33 +11,33 @@
             </a>
         </li>
         <li>
-            <a href="#" class="<?php echo $application; ?>" title="Applications">
-                <i class='bx bx-send'></i>
-                <span class="links-name">Applications</span>
+            <a href="#" class="<?php echo $brands; ?>" title="Brands">
+                <i class='bx bx-bitcoin'></i>
+                <span class="links-name">Brands</span>
             </a>
         </li>
         <li>
-            <a href="#" class="<?php echo $screening; ?>" title="Screening">
-                <i class='bx bx-phone-call'></i>
-                <span class="links-name">Screening</span>
+            <a href="#" class="<?php echo $category; ?>" title="Category">
+                <i class='bx bx-category-alt'></i>
+                <span class="links-name">Category</span>
             </a>
         </li>
         <li>
-        <a href="../programs/programs.php" class="<?php echo $programs; ?>" title="Programs">
-                <i class='bx bx-book-reader'></i>
-                <span class="links-name">Programs</span>
+        <a href="../products/product.php" class="<?php echo $products; ?>" title="Products">
+                <i class='bx bx-shopping-bag'></i>
+                <span class="links-name">Products</span>
             </a>
         </li>
         <li>
-            <a href="#" class="<?php echo $students; ?>" title="Students">
-                <i class='bx bx-user'></i>
-                <span class="links-name">Students</span>
+            <a href="#" class="<?php echo $orders; ?>" title="Orders">
+                <i class='bx bx-cart-add'></i>
+                <span class="links-name">Orders</span>
             </a>
         </li>
         <li>
-            <a href="../faculty/faculty.php" class="<?php echo $faculty; ?>" title="Faculty">
+            <a href="../suppliers/supplier.php" class="<?php echo $suppliers; ?>" title="Supplier">
                 <i class='bx bx-group' ></i>
-                <span class="links-name">Faculty</span>
+                <span class="links-name">Suppliers</span>
             </a>
         </li>
         <li>
