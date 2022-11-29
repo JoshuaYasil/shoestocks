@@ -11,7 +11,7 @@
             </a>
         </li>
         <li>
-            <a href="#" class="<?php echo $brands; ?>" title="Brands">
+            <a href="../brand/brand.php" class="<?php echo $brands; ?>" title="Brands">
                 <i class='bx bx-bitcoin'></i>
                 <span class="links-name">Brands</span>
             </a>
@@ -47,6 +47,10 @@
             </a>
         </li>
         <hr class="line">
+        <div class="search">
+                <input type ="text" id ="search" placeholder="Type here to search">
+                <label for ="search"> <i class='bx bx-search'></i></label>
+        </div>
         <li id="logout-link">
             <a class="logout-link" href="../login/logout.php" title="Logout">
                 <i class='bx bx-log-out'></i>

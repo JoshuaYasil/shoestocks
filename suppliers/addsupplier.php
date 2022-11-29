@@ -8,9 +8,9 @@
     if (!isset($_SESSION['logged-in'])){
         header('location: ../login/login.php');
     }
-    //if the above code is false then code and html below will be executed
+
     $suppliers = new Suppliers();
-    //if add faculty is submitted
+
     if(isset($_POST['save'])){
 
         $suppliers->firstname = htmlentities($_POST['fn']);

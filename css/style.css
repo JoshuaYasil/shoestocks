@@ -12,7 +12,7 @@
 body{
     width: 100%;
     height: 100%;
-    background-color: #f5f5f5;
+    background-color: #6eb4f5fb;
 }
 
 .title{
@@ -55,6 +55,7 @@ body{
     justify-items: center;
     overflow: hidden;
     background-color: #192dd8;
+    background:url(../images/shoe.jpg)
 }
 
 .login-form .divider{
@@ -92,7 +93,7 @@ body{
 .login-form .logo-details .logo-name{
     color: #1e4d94;
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 1000;
 }
 
 input, select {
@@ -117,7 +118,7 @@ label{
     width: 250px;
     height: calc(100vh);
     overflow: hidden;
-    background-color: #1b34bd;
+    background-color: #4759fa;
 }
 
 .side-bar .logo-details{
@@ -136,8 +137,8 @@ label{
 
 .side-bar .logo-details .logo-name{
     color: #fff;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 1000;
 }
 
 .side-bar .nav-links{
@@ -160,15 +161,15 @@ label{
 }
 
 .side-bar .nav-links .active{
-    background-color: #1A5653;
+    background-color: #0b1f91;
 }
 
 .side-bar .nav-links li a:active{
-    background-color: #1A5653;
+    background-color: #3871bd;
 }
 
 .side-bar .nav-links li a:hover{
-    background-color: #1A5653;
+    background-color: #0b1f91;
 }
 
 .side-bar .nav-links li i{
@@ -203,7 +204,7 @@ label{
     display: flex;
     justify-content: space-between;
     height: 80px;
-    background-color: #fff;
+    background-color: rgb(14, 110, 255);
     align-items: center;
     position: fixed;
     width: calc(100% - 250px);
@@ -355,7 +356,7 @@ a.action-edit:hover, a.action-delete:hover{
     align-items: center;
     justify-content: center;
     width: calc(100% / 4 - 15px);
-    background: #fff;
+    background: rgb(245, 242, 56);
     padding: 15px 14px;
     border-radius: 12px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
@@ -665,4 +666,17 @@ a.button{
     border-radius: 10px;
     box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
     width: 80%;
+  }
+
+  .search {
+    width: 100;
+    display: inline;
+  }
+
+  .bx-search  {
+    height: 1px;
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    position: relative;
   }

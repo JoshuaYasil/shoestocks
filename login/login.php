@@ -1,13 +1,12 @@
 <?php
-    $page_title = 'Forecast - Login';
+    $page_title = 'Shoestocks - Login';
 
     require_once '../classes/account.class.php';
-    //we start session since we need to use session values
+
     session_start();
-    //creating an array for list of users can login to the system
 
     if(isset($_POST['username']) && isset($_POST['password'])){
-        //Sanitizing the inputs of the users. Mandatory to prevent injections!
+
         $account = new Account;
         $account->username = htmlentities($_POST['username']);
         $account->user_password = htmlentities($_POST['password']);
@@ -19,11 +18,10 @@
             if($res['type'] == 'admin'){
                 header('location: ../admin/dashboard.php');
             }else{
-                header('location: ../faculty/faculty.php');
+                header('location: ../category/category.php');
             }
         }
 
-        //set the error message if account is invalid
         $error = 'Invalid username/password. Try again.';
     }
 
@@ -43,7 +41,7 @@
             <input type="password" id="password" name="password" placeholder="Enter password" required tabindex="2">
             <input class="button" type="submit" value="Login" name="login" tabindex="3">
             <?php
-                //Display the error message if there is any.
+
                 if(isset($error)){
                     echo '<div><p class="error">'.$error.'</p></div>';
                 }
@@ -51,6 +49,7 @@
             ?>
         </form>
     </div>
+
 <?php
     require_once '../includes/footer.php';
 ?>
